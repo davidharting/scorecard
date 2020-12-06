@@ -8,7 +8,7 @@
     "format:check": "todo",
     "lint": "todo",
     "start": "next start",
-    "ts:check": "todo"
+    "ts:check": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
     "next": "10.0.3",
